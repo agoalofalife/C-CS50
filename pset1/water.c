@@ -5,7 +5,7 @@
 int main(void)
 {
       int count_boutles;
-      printf("the number of minutes spent in the shower ");
-      scanf("%d", &count_boutles);
+      printf("minutes ");
+      count_boutles = GetInt();
       printf("bouttles : %d\n", count_boutles * 12);
 }
